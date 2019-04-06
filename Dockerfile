@@ -1,13 +1,6 @@
-###############################################################################
-# Name:         Dockerfile
-# Author:       Daniel Middleton <daniel-middleton.com>
-# Description:  Dockerfile used to build dannydirect/tinyproxy
-# Usage:        docker build -t dannydirect/tinyproxy:latest .
-###############################################################################
+FROM hypriot/rpi-alpine-scratch
 
-FROM alpine:3.7
-
-MAINTAINER Daniel Middleton <monokal.io>
+MAINTAINER Clay Coppage
 
 RUN apk add --no-cache \
 	bash \
