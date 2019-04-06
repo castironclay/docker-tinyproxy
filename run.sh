@@ -109,11 +109,6 @@ tailLog() {
                    "Stopped tailing $TAIL_LOG"
 }
 
-# Check args
-if [ "$#" -lt 1 ]; then
-    displayUsage
-    exit 1
-fi
 # Start script
 echo && screenOut "$PROG_NAME script started..."
 # Stop Tinyproxy if running
