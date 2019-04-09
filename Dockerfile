@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM arm32v6/alpine
 
 MAINTAINER Clay Coppage
 
